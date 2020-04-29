@@ -98,7 +98,7 @@ int main(int argc, char* argv[])
         const MediaChunkSizeProviderImpl mediaChunkSizeProvider;
 
         // Instantiate Quicktime writing API by indicating the location and name of the target file
-        QuicktimeWriter quicktimeWriter(mediaChunkSizeProvider, outputDir.c_str(), outputFilename.c_str(), false);
+        QuicktimeWriter quicktimeWriter(mediaChunkSizeProvider, outputDir.c_str(), outputFilename.c_str());
 
         //Set the initial timecode of the file
         const Timecode initialTimecode( static_cast<UInt16> (editRate.Round()), 1, 0, 0, 0, editRate.Denominator != 1);
