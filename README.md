@@ -12,11 +12,11 @@
 
 ## Overview
 The MOV creator API is a C++ SDK that enables the creation of a MOV file in win64.
-During sometime we were looing for a way to create MOV files in win64 but we only found win32 solutions, so Mediagaps team decided to created our own library and share a restricted portion of it with the community. 
+During sometime we were looking for a way to create MOV files in win64, but we only found win32 solutions, so Mediagaps team decided to create our own library and share a restricted portion of it with the community. 
 
-This tool receive raw bitstream and multiplexes it inside an MOV container using MediaGaps internal libraries.
+This tool receives raw bitstream and multiplexes it inside an MOV container using MediaGaps internal libraries.
 
-Iniside this project, you may find a simple solution example to explore how to use the internal libraries api or directly use the Demo tool to generate a MOV file from raw prores stream and an WAVE file.
+Inside this project, you can find a simple solution example to explore how to use the internal libraries api or directly use the Demo tool to generate a MOV file from raw prores stream and an WAVE file.
 
 ## Features
 Here you can find a list of formats available from the internal library.
